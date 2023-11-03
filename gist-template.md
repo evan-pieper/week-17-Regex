@@ -33,10 +33,10 @@ In the regex
 , the ^ and $ characters are anchors. The ^ character asserts the position at the start of a line, and the $ asserts the position at the end of a line. Together, they denote a string of characters or quantifiers that must be matched exactly. In this case, the ^ and $ characters are used to ensure that the regex matches the entire string, and not just a substring.
 
 ### Quantifiers
-The ? in #? is a quantifier that matches 0 or 1 occurrence of the preceding element, making the ‘#’ optional. {6} and {3} are also quantifiers, matching exactly 6 and 3 occurrences of the preceding character classes respectively. The | character is an OR operator that matches either the expression to the left or the expression to the right. In this case, it matches either the 6-digit or 3-digit hex code.
+The ? in #? is a quantifier that matches 0 or 1 occurrence of the preceding element, making the ‘#’ optional. {6} and {3} are also quantifiers, matching exactly 6 and 3 occurrences of the preceding character classes respectively.
 
 ### Grouping Constructs
-( and ) are used to create a capturing group. This groups the 6-digit and 3-digit patterns together, allowing the OR operator to work correctly. The capturing group also allows the regex to return the matched hex code, rather than the entire string.
+( and ) are used to create a capturing group. This groups the 6-digit and 3-digit patterns together, allowing the OR operator | to work correctly. The capturing group also allows the regex to return the matched hex code, rather than the entire string.
 
 ### Bracket Expressions
 [a-f0-9] is a bracket expression that matches any single character from the set of characters defined inside the brackets. In this case, it matches any digit or lowercase letter from ‘a’ to ‘f’.
