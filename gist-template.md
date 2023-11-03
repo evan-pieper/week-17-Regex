@@ -1,10 +1,11 @@
-# Title (replace with your title)
+# A Basic Introduction to Functional Regular Expressions
 
-Introductory paragraph (replace this with your text)
+In basic terms, regular expressions are patterns used to match character combinations in strings. They provide a powerful tool for searching, replacing, and parsing text with complex criteria. They use a blend of special characters and constructs to define the search parameters.
+In web development, colors are often represented using hexadecimal notation. This document delves into a regular expression specifically designed to match hexadecimal color codes, which can be either 3-digit or 6-digit long, and may or may not start with a ‘#’. The regex in question is /^#?([a-f0-9]{6}|[a-f0-9]{3})$/.
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+This article seeks to inform the user of the basic components of a regular expression and how they can be used to match character combinations in strings. It will cover the following topics: anchors, quantifiers, grouping constructs, bracket expressions, character classes, the OR operator, flags, and character escapes. 
 
 ## Table of Contents
 
